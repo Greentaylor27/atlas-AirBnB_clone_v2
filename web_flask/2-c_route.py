@@ -20,5 +20,6 @@ def not_index():
 def not_not_index(text):
     return 'C ' + text.replace('_', ' ')
 
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
