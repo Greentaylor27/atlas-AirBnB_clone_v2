@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Module that should display two inputs"""
-from flask import Flask , render_template
+from flask import Flask, render_template
 
 
 app = Flask(__name__)
